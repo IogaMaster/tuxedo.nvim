@@ -54,4 +54,10 @@ function M.tuxedo()
     vim.cmd 'startinsert'
 end
 
+function M.setup()
+    vim.api.nvim_create_user_command("Tuxedo", function()
+        M.tuxedo()
+    end, {})
+end
+
 return M
