@@ -58,6 +58,7 @@ function M.tuxedo()
         end,
     })
 
+    vim.api.nvim_set_option_value('filetype', 'todo', { buf = buf_id })
     vim.cmd 'startinsert'
 end
 
