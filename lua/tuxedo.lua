@@ -9,6 +9,13 @@ function M.tuxedo()
         return
     end
 
+    local root_dir = vim.fs.root(0, { ".git" }) or vim.fn.getcwd()
+    local todo_path = root_dir .. "/todo.txt"
+
+    if vim.fn.filereadable(todo_path) == 0 then
+        vim.fn.writefile({}, todo_path)
+    end
+
     local uis = vim.api.nvim_list_uis()
     if #uis == 0 then
         return
