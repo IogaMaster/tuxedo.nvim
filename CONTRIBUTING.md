@@ -1,6 +1,6 @@
-# Contributing to projectname
+# Contributing to tuxedo.nvim
 
-This document is mainly intended for people who want to contribute to projectname.
+This document is mainly intended for people who want to contribute to tuxedo.nvim.
 As a short reminder, this is generally what you would need to do:
 
 1. Fork and clone the repository

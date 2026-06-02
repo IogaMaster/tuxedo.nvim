@@ -1,19 +1,19 @@
-<h1 align="center">projectname</h1>
+<h1 align="center">tuxedo.nvim</h1>
 
 <h1 align="center">
 <a href='#'><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="600px"/></a>
   <br> <br>
   <div>
-    <a href="https://github.com/IogaMaster/projectname/issues">
-        <img src="https://img.shields.io/github/issues/IogaMaster/projectname?color=fab387&labelColor=303446&style=for-the-badge">
+    <a href="https://github.com/IogaMaster/tuxedo.nvim/issues">
+        <img src="https://img.shields.io/github/issues/IogaMaster/tuxedo.nvim?color=fab387&labelColor=303446&style=for-the-badge">
     </a>
-    <a href="https://github.com/IogaMaster/projectname/stargazers">
-        <img src="https://img.shields.io/github/stars/IogaMaster/projectname?color=ca9ee6&labelColor=303446&style=for-the-badge">
+    <a href="https://github.com/IogaMaster/tuxedo.nvim/stargazers">
+        <img src="https://img.shields.io/github/stars/IogaMaster/tuxedo.nvim?color=ca9ee6&labelColor=303446&style=for-the-badge">
     </a>
-    <a href="https://github.com/IogaMaster/projectname">
-        <img src="https://img.shields.io/github/repo-size/IogaMaster/projectname?color=ea999c&labelColor=303446&style=for-the-badge">
+    <a href="https://github.com/IogaMaster/tuxedo.nvim">
+        <img src="https://img.shields.io/github/repo-size/IogaMaster/tuxedo.nvim?color=ea999c&labelColor=303446&style=for-the-badge">
     </a>
-    <a href="https://github.com/IogaMaster/projectname/blob/main/.github/LICENCE">
+    <a href="https://github.com/IogaMaster/tuxedo.nvim/blob/main/.github/LICENCE">
         <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=ca9ee6&colorA=313244&colorB=cba6f7"/>
     </a>
     <br>
@@ -22,31 +22,16 @@
    </h1>
    <br>
 
-With projectname you can build servers as packages with a simple interface and deploy them with the included module.
-
-- 🏗️ Builders that make packaging and running servers simple:
-    - mkGenericServer (builder for any server)
-    - mkMinecraftServer (builder for mcman based servers)
-    - mkSteamServer (wrapper for steamcmd and steam-run)
-- ⚙️ A module for running servers with additional tools:
-    - 🏭 Runs the server
-    - 🌐 Sets up proxy (playit.gg, ngrok, cloudflare tunnels)
-    - 🫙 Works great on host, nixos-containers, and microvms
-- 📦 Packages not present in nixpkgs (yet) that are useful for servers.
-    - [mcman](https://github.com/ParadigmMC/mcman)
-    - [playit](https://playit.gg/)
-
-#### Why?
-
+`tuxedo.nvim` is a window wrapper around the [tuxedo](https://github.com/webstonehq/tuxedo/) tui application.
+This plugin is like [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim), but for tuxedo.
 
 ## 📦 Installation and Usage
 
+Include the repo with your favorite package manager.
 
-## 🔨 TODO
+After that setup will be automatically called, then you can either call the `:Tuxedo` command.
+Or run `require("tuxedo").tuxedo()`.
 
-There is still a lot to do:
-
-- Something
 
 ## ❤️ Contributing
 
