@@ -32,6 +32,16 @@ Include the repo with your favorite package manager.
 After that setup will be automatically called, then you can either call the `:Tuxedo` command.
 Or run `require("tuxedo").tuxedo()`.
 
+## Config
+
+```lua
+require('tuxedo').setup {
+	create_todo_file = true,
+	width_ratio = 0.95,
+	height_ratio = 0.80,
+}
+```
+
 
 ## ❤️ Contributing
 
