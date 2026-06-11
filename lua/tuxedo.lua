@@ -72,7 +72,7 @@ end
 
 function M.setup(opts)
 	opts = opts or {}
-	M.config = vim.tbl_deep_extend("force", config_defaults, opts)
+	M.config = vim.tbl_deep_extend("force", {}, config_defaults, M.config, opts)
 	vim.api.nvim_create_user_command("Tuxedo", function()
 		M.tuxedo()
 	end, {})
